@@ -7,10 +7,19 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+.display-4 {
+    background-color: #0a4abf;
+}
+
+.logo {
+    width: 1520px
+}
+
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;
 }
+
 
 .btn-primary {
   color: #fff;
@@ -20,14 +29,13 @@ a {
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 @media (min-width: 768px) {
   html {
@@ -59,8 +67,9 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: #0a4abf;
 }
 .footer {
   position: absolute;
